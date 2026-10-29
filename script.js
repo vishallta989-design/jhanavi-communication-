@@ -95,8 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      const primaryPhone = '917704000111'; // Shop primary WhatsApp number
-      const message = `नमस्ते जानवी कम्युनिकेशन,\n\nमेरा नाम *${name}* है।\nमोबाइल मॉडल: *${model}*\nसमस्या: *${issue}*\n\nकृपया रिपेयरिंग का अनुमानित खर्च और समय बताएं। धन्यवाद!`;
+      const primaryPhone = '919936205632'; // Shop primary WhatsApp number
+      const message = `नमस्ते जाह्नवी कम्युनिकेशन,\n\nमेरा नाम *${name}* है।\nमोबाइल मॉडल: *${model}*\nसमस्या: *${issue}*\n\nकृपया रिपेयरिंग का अनुमानित खर्च और समय बताएं। धन्यवाद!`;
 
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `https://wa.me/${primaryPhone}?text=${encodedMessage}`;
